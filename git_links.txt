@@ -1,3 +1,0 @@
-https://github.com/SMansberger/dws1/tree/gh_pages
-
-http://smansberger.github.io/dws1/gallery.html
