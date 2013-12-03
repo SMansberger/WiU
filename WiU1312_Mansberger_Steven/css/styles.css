@@ -11,21 +11,37 @@ body {
 	background-image: url("../images/checker.gif");
 	background-repeat: repeat;
 	background-position: center;
-	width: 98%;
+	width: 80%;
 	height: 98%;
-	margin: 1%;
+	margin: 3% auto 1% auto;
 	border: 0.1em solid green;
 	border-radius: 1em;
 	box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
 }
 
+h1 {
+	font-size: 2em;
+	text-align: center;
+}
+
+h5 {
+	text-align: center;
+}
+
+
 #main {
-	width: 75%;
+	width: 90%;
 	height: 95%;
 	margin: 2em auto 2em auto;
 	padding: 1em 2em 2em 2em;
 	border-radius: 1em;
 	background-color: rgba(0,255,0,0.3);
+}
+
+#navlist li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
 }
 
 article {
@@ -35,10 +51,6 @@ article {
 	background-color: #ffffff;
 	border: 0.1em solid black;
 	border-radius: 0.5em;
-}
-
-p {
-	text-indent: 30px;
 }
 
 #columns {
@@ -54,6 +66,7 @@ p {
 	  
 }
 footer {
+	margin-top: 15%;
 	clear:both;
 }
 
